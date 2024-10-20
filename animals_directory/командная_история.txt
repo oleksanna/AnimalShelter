@@ -1,0 +1,6 @@
+mkdir data
+copy data\domestic_animals.txt + data\pack_animals.txt data\Друзья_человека.txt
+ren data\Друзья_человека.txt Друзья_человека_объединенный.txt
+mkdir animals_directory
+move data\Друзья_человека_объединенный.txt animals_directory\
+doskey /h > animals_directory\командная_история.txt
